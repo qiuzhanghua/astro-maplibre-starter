@@ -4,8 +4,8 @@
 	import mapboxgl, { NavigationControl } from "maplibre-gl";
 	import type {FeatureCollection} from "@turf/turf";
 	import {mergePoints, randomData, toLngLats, toTracks} from "../lib";
-	import {GeoJsonLayer, PathLayer, ScatterplotLayer} from "@deck.gl/layers/typed";
-	import { MapboxOverlay } from "@deck.gl/mapbox/typed";
+	import {GeoJsonLayer, PathLayer, ScatterplotLayer} from "@deck.gl/layers";
+	import { MapboxOverlay } from "@deck.gl/mapbox";
 	let mocking = true;
 	let allTracks: FeatureCollection = null;
 	let tracks: FeatureCollection = null;
