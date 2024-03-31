@@ -25,7 +25,7 @@
     "@deck.gl/mesh-layers": "^9.0.3",
     "@luma.gl/core": "^9.0.8",
     "@turf/turf": "^6.5.0",
-    "@types/canvas-confetti": "^1.6.3",
+    "@types/canvas-confetti": "^1.6.4",
     "astro": "^4.5.12",
     "autoprefixer": "^10.4.19",
     "maplibre-gl": "^4.1.2",
